@@ -10,7 +10,7 @@
     <style media="screen">
         body {
             text-align: center;
-            background-color: rgb(48, 98, 192);
+            background-color: rgb(93, 13, 184);
         }
 
         .primary {
@@ -30,7 +30,7 @@
 
         .delete {
             margin-left: 20px;
-            color: red;
+            color: rgb(58, 3, 3);
             cursor: pointer;
             text-align: right;
         }
@@ -85,15 +85,15 @@
 <body>
 
     <div class="container col-md-4 col-md-offset-4">
-        <h2>Status: <span id="status" class="primary">Creating</span></h2>
-        <h4>Create a new workout by submitting its name & description</h4>
-        <h4>Click a Previous Workout Plan below to modify</h4>
+        <h2>Status: <span id="status" class="primary">Workout-Plan</span></h2>
+        <h4>Place Excerise name and description</h4>
+        <h4>Click excerise below to modify</h4>
         <div id="user-input">
 
             <form>
                 <div class="row">
                     <h2>Create Workout Plan</h2>
-                    <!-- <input type="text" id='workout-name' class="form-control" name="workout" placeholder="Workout Name" autofocus> -->
+                    
                     <input type="text" id='exercise-name' class="form-control" name="name" placeholder="Workout Name"
                         autofocus>
                     <input type="text" id='description' class="form-control" name="description"
@@ -127,14 +127,12 @@
         <div id="action-button">
             <button class="mx-2 p-3" id="make-new">Submit</button>
         </div>
-        <!-- <div class="d-none">
-      <button class="mx-2 p-3" id="clear-all">Delete All Exercises</button>
-    </div> -->
+       
 
 
         <div>
             <!-- <h4>List of Exercises included in: <span id="workout2" class="primary"></span> workout</h4> -->
-            <h2>Previous Workout Plans</h2>
+            <h2>Previous Exercises Plans</h2>
         </div>
         <div class="row">
             <div id="results"></div>
